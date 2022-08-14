@@ -1,0 +1,157 @@
+{
+  "Domain": "casinojet.com",
+  "Name": "CasinoJet",
+
+  "Connection": "Server=cj.bit2play.com;Initial Catalog=CRM_Jet;User Id=jetUser;Password=jfF6ekEH4A;MultipleActiveResultSets=True;",
+  "Tokens": { // Random
+    "Affiliate": "kOraWFHYwxTLZCVSSR85DX5v6e4aGX9g",
+    "Back": "b97CKyBzBOsZlF0maXtGLeNR5DZKsVPB",
+    "FrontAPI": "d67zi32r4wCW6YIpbcEhl65rVDoIc5AZ",
+    "PaymentIntegration": "bbdc96cff96a4f2b963f0037a3fb08d7"
+  },
+
+  "Captcha": {
+    "PublicKey": "6LegNSQaAAAAAGwz_QZHjoWP-xMfMbrHlBxdZYNo",
+    "SecretKey": "6LegNSQaAAAAAD_-TjIRodBFV9cVPc-HFcprKdIX"
+  },
+
+  "SendGridKey": "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",
+  "Currency": "EUR",
+  "CurrencyList": [ "EUR" ],
+  "Translations": [ "pl", "en", "it", "de", "ru", "tr", "fr", "es" ],
+
+  "Twilio": {
+    "AccountSID": "AC3e640693bf9402fdc7042ce21bb16268",
+    "AuthToken": "c80812e5e3b1d4b1a047ec431de406ec"
+  },
+
+  "PaymentProviders": {
+    "WireCapital": {
+      "ApiCallAuthKey": "4855534b7c50325e4b26"
+    },
+
+    "PayOP": {
+      "PublicKey": "application-b3141f51-11c2-4b75-883c-9dd85c32afad",
+      "PrivateKey": "6da28e0678881a55c7091d07"
+    },
+
+    "Paywize": {
+      "MerchantControl": "34C96CC1-9118-4531-B770-4ACE042840DB",
+      "MerchantLogin": "Ron_Play24bet"
+    },
+
+    "CoinPaid": {
+      "ProcessingKey": "yio9axyZ6U4fZZ8BqRIFSSXb9knzoHcB",
+      "PrivateKey": "aFYX3zn6hTns5aVDrRfdN8sWVyfwh33anqUxWZ73w2bvXgZufphU5SOCanHYjoQ4"
+    },
+
+    "AstroPay": {
+      "PublicKey": "ujWpmNjW0H8Js04cZD5vjMT0ggEirSby",
+      "PrivateKey": "WBsSzTcxEna3Z7beKIl7Jdu40asK9EzJ"
+    },
+
+    "RealDeposits": {
+      "merchant_id": "API-CASINOJET",
+      "application_key": "CASINOJET",
+      "merchant_secret": "XWZN1cEo4b7791flDOjmhNr4q9P4lj6D"
+    },
+
+    "ShefaPay": {
+      "payment_profile": "8a28c361-bea4-483f-a49b-0c6ce7e61f3b",
+      "organisation": "418a5166-381e-415d-af1a-989788b9a99c",
+      "api_key": "FQtT25m1L7pX924yrg2St8dDzwGqA2stJuI5mZefL7Tesh4Cdb",
+      "signature": "P.LuDPv7dhy}_'y3shefaPay"
+    },
+	
+    "EasyX": {
+      "merchant_token":  "76e69960bbce56eb41f46d5da6daa04a461912e3",
+      "merchant_id":     "b1b293a3e4202859ab04e858daa06269baa90647",
+      "merchant_site_id": 299380,
+      "statusUrl": "https://secure.payment-gateway.technology/api/getPaymentStatus"
+    },
+
+    "EUPayment": {
+      "account_id": "sec1_tp_casjet_ccdir_eur",
+      "password": "Bhy0?n36P",
+      "passphrase": "416619617c0F0Fa06Ce63ec3dC9Ad261c"
+    },
+
+    "ZingPos": {
+      "account_id": "EUR-casinojet",
+      "merchantKey": "bit2play",
+      "secretKey": "D3o64QH2E6J3CqyyUR30w2tDTnHb21m0"
+    }
+  },
+
+  "GameProviders": {
+    "Belatra": {
+      "CasinoID": "casinojet",
+      "EncryptionKey": "6d7599ee29b941cc"
+    },
+
+    "BetSoft": {
+      "BankID": "5439"
+    },
+
+    "Groove": {
+      "OperatorID": "2199"
+    },
+
+    "Booming": {
+      "AuthKey": "NliiTgXfzg7VTeU8dy9OFg==",
+      "EncryptionKey": "Qs4X0GrgG7B4kvakdk58CrwtqfN9RZPTOG8qVY4/tnkU2WqELuzyjNXlltxPsWZ5",
+      "ApiCall": "https://api.asia.booming-games.com"
+    },
+
+    "Habanero": {
+      "BrandID": "c8e866aa-e8c1-ea11-9b05-501ac5532e5e",
+      "APIKey": "DEFA5E62-E5D8-41B1-BE70-78AE37A44362",
+      "Passkey": "71e8e2d7-d44d-4969-9906-4ff3e15ee9ac",
+      "SpinSecret": "HabanPlay24Bet"
+    },
+
+    "PlayStar": {
+      "HostID": "5d2e45fd68fac66af4cac199df56a1eb"
+    },
+
+    "SAGaming": {
+      "ApiCallKey": "C4F25092A85F40F88A7FF344DDFED6B6",
+      "EncryptionKey": "GgaIMaiNNtg",
+      "EncryptionKeyTwo": "g9G16nTs"
+    },
+
+    "Spinomenal": {
+      "PartnerId": "casinojet",
+      "EncryptionKey": "df34!Dnjdfxcvfa6"
+    },
+
+    "TomHorn": {
+      "EncryptionKey": "tSJc7VNF64UDAysk",
+      "PartnerId": "C9FB9980-426B-495F-8A46-1768559F4F0E",
+      "API": "https://s6.toogri.com/"
+    },
+
+    "XPG": {
+      "ProviderKey": "mVvTt7ygpskRewQ3jXqG8xJ4LSYCbM",
+      "OperatorID": "2173"
+    },
+
+    "ZeusPlay": {
+      "PartnerUrl": "https://fr4.zeuspartner.com/",
+      "KeyName": "casinojet",
+      "EncryptionKey": "edcf86e06bb80cbded7bd00f73c81c04"
+    },
+
+    "MrSlotty": {
+      "ApiUrl": "https://site-sgp1.mrslotty.com/integrations/moneyfly24-casinojet/rpc",
+      "ApiCallKey": "6ecd00d9-7a94-412c-a4bb-8554216f1c17",
+      "HMACSaltKey": "ce53a408-b154-43d7-9a65-36e3bf63530a"
+    },
+
+    "PlayPearls": {
+      "SiteID": "014e3328-2531-4216-9b7a-6e8ea6953672",
+      "SystemPassword": "88ebf400-bc70-485a-98b8-c9161b6eb2e7"
+    }
+
+  }
+}

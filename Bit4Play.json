@@ -1,0 +1,148 @@
+{
+  "Domain": "bit4play.com",
+  "Name": "Bit4Play",
+
+  "Connection": "Server=jp.bit2play.com;Initial Catalog=CRM_Bit4Play;User Id=BitUser;Password=gGFfjev4md;MultipleActiveResultSets=True;",
+  "Tokens": {
+    "Affiliate": "Yd9G8CfMVc61pD89kK4DgewKXreyaKwp",
+    "Back": "gEyngfB092MhdoXaeyquUVUvkEfQgIBl",
+    "FrontAPI": "jzVCZPFeGz9xFiVfDWRcazVJrjvmywm6",
+    "PaymentIntegration": "2b00ac0b4e3e414ca957e8d5c0728c32"
+  },
+
+  "Captcha": {
+    "PublicKey": "6LeBNSQaAAAAACnK9wvP44m32I5_SJTVxrT8SECv",
+    "SecretKey": "6LeBNSQaAAAAAMQiFMtazaF-epXxEfqCQACqQR63"
+  },
+
+  "SendGridKey": "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",
+  "Currency": "uBTC",
+  "CurrencyList": ["uBTC" ],
+  "Translations": [ "en", "it", "de", "ru", "tr", "fr", "es"],  
+  
+  "Twilio": {
+    "AccountSID": "ACf5f8d95687b932c88967aa9b1589dae5",
+    "AuthToken": "3b4071a3f33aca36b2a19cb571b53dd1"
+  },
+
+  "PaymentProviders": {
+    "WireCapital": {
+      "ApiCallAuthKey": ""
+    },
+
+    "Paywize": {
+      "MerchantControl": "34C96CC1-9118-4531-B770-4ACE042840DB",
+      "MerchantLogin": "Ron_Play24bet"
+    },
+
+    "PayOP": {
+      "PublicKey": "application-22f924ec-e22b-4c3a-8d6a-bb34923b2d22",
+      "PrivateKey": "fefc11203ad3e84959c3f869"
+    },
+
+    "AstroPay": {
+        "PublicKey": "",
+        "PrivateKey": ""
+    },
+
+    "CoinPaid": {
+      "ProcessingKey": "pZN4weD9r8L8fGfqHLlPLOqyvk8sMxne",
+      "PrivateKey": "c13Pmsso9MfNUmwvwIgBD5bNj3z00ZYT81pON1w1H7IW7PbfbFw8zPwxscFEsO3S"
+    },
+
+    "RealDeposits": {
+      "merchant_id": "API-casinomarriott",
+      "application_key": "casinomarriott",
+      "merchant_secret": "AdDlxCwyfOcmF20fsJGNO39PSp8X1E2v"
+    },
+
+    "ShefaPay": {
+      "payment_profile": "cc92292b-2000-4d8a-8d6f-1215d167dac8",
+      "organisation": "f2f9d43d-2741-4ca3-b403-fa6ef2bb9028",
+      "api_key": "EjiuL7euYD5g7TK2jMkNwSrpZuGUgN7ojfLSoiyGui5Qprr0QM",
+      "signature": "P.LuDPv7dhy}_'y3shefaPay"
+    },
+
+    "GumballPay": {
+      "EndPointID": "2600",
+      "MerchantControl": "41D389A5-C55D-44F2-9F54-FC2C030D6A88"
+    },
+
+    "GameChangers": {
+      "merchantID": 1234706,
+      "personalHashKey": "I9RDDS5HEI"
+    }
+  },
+
+  "GameProviders": {
+    "Belatra": {
+      "CasinoID": "marriott",
+      "EncryptionKey": "3598353dca474616"
+    },
+
+    "BetSoft": {
+      "BankID": "6206"
+    },
+
+    "Groove": {
+      "OperatorID": ""
+    },
+
+    "Booming": {
+      "AuthKey": "ujTNmeembSuVex0IKz89aQ==",
+      "EncryptionKey": "4bGw1ETJgHRuY6suHBXFnp5j6/WVNmDLnz19gedgCftWHE2e/O5uxvqeGyiI5JUZ",
+      "ApiCall": "https://api.eu.booming-games.com"
+    },
+
+    "Habanero": {
+      "BrandID": "dce54f37-9e90-eb11-94b3-2818787a0d26",
+      "APIKey": "B33121CD-9077-4338-83A7-4AC04B95C708",
+      "Passkey": "c6d44ded-eecc-4ed1-88bb-df6392dbb5d3",
+      "SpinSecret": "HabanPlay24Bet"
+    },
+
+    "PlayStar": {
+      "HostID": "6160b7c3c47f8437e8c87a276a4d5c8e"
+    },
+
+    "SAGaming": {
+      "ApiCallKey": "F3FCD10AD5ED4E3482DDA9F4DE2CC6B4",
+      "EncryptionKey": "M06!1OgI",
+      "EncryptionKeyTwo": "g9G16nTs"
+    },
+
+    "Spinomenal": {
+      "PartnerId": "play24bet-CasinoMarriott",
+      "EncryptionKey": "df34!Dnjdfxcvfa6"
+    },
+
+    "TomHorn": {
+      "EncryptionKey": "KZ3HXqRLr7WjeexW",
+      "PartnerId": "ACDBE9A9-D551-4AAF-B413-F10B553701C1",
+      "API": "https://s6.toogri.com/"
+    },
+
+    "XPG": {
+      "ProviderKey": "WMBm4AEvnpDXGzagfN9tKHkZU2TdY6",
+      "OperatorID": "2456"
+    },
+
+    "ZeusPlay": {
+      "PartnerUrl": "https://fr4.zeuspartner.com/",
+      "KeyName": "bit4play",
+      "EncryptionKey": "b1aedf0ee41d869453c41e2613a448ef"
+    },
+
+    "MrSlotty": {
+        "ApiUrl": "https://site-sgp1.mrslotty.com/integrations/moneyfly24-bit4play/rpc",
+        "ApiCallKey": "01280e20-7eaa-4f1f-a6c6-4d9b50622058",
+        "HMACSaltKey": "8eee3a1c-1c9c-4e14-93cc-faa01498017b"
+    },
+	
+    "PlayPearls": {
+      "SiteID": "5a293091-edd0-4d9d-8309-a2cb35262da5",
+      "SystemPassword": "4007e2e3-30d4-40ff-8cbc-dd1144467322"
+    }
+
+  }
+}

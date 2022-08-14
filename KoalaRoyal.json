@@ -1,0 +1,176 @@
+{
+  "Domain": "koalaroyal.com",
+  "Name": "KoalaRoyal",
+
+  "Connection": "Server=jp.bit2play.com;Initial Catalog=CRM_Koala;User Id=koalaUser;Password=Bna_7n75;MultipleActiveResultSets=True;",
+  "Tokens": {
+    "Affiliate": "3qJuz17zPfE79sH9fD8Nho2RpjjfiAkH",
+    "Back": "IZmBX153Yf7mO1oXNCyleGGEfYRAxRd8",
+    "FrontAPI": "MTaumzn9nt499D5TPbh9mvxgFp6aaEwI",
+    "PaymentIntegration": "0bf1206503a5471d9955f14e08b9eceb"
+  },
+
+  "Captcha": {
+    "PublicKey": "6LcINCQaAAAAAAyB-GHvuvChBSybePbkmaC4mR_s",
+    "SecretKey": "6LcINCQaAAAAAHnH_lwdUdVFsMY9h-zBf83nGSxh"
+  },
+
+  "SendGridKey": "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",
+  "Currency": "AUD",
+  "CurrencyList": ["AUD"],
+  "Translations": ["en"],
+
+
+  "Twilio": {
+    "AccountSID": "ACf5f8d95687b932c88967aa9b1589dae5",
+    "AuthToken": "3b4071a3f33aca36b2a19cb571b53dd1"
+  },
+
+  "PaymentProviders": {
+    "WireCapital": {
+      "ApiCallAuthKey": "52015dc8b256f9cdf638"
+    },
+
+    "PayOP": {
+      "PublicKey": "application-cf6376d7-10a2-4ec3-8785-c7389903f325",
+      "PrivateKey": "d10c7d9ae34dbf2f9cf7d163"
+    },
+
+    "NetBanking": {
+      "MidSecret": "6c996dba-e6d7-4ca8-93d5-de3f8bf8fcc3",
+      "MidCode": 98
+    },
+
+    "MuchBetter": {
+      "MidSecret": "db93117d-ef0b-45bb-b4d2-ff552d50f3be --- from JP. CHECK&CHANGE",
+      "merchantAccountId": 1
+    },
+
+    "Paywize": {
+      "MerchantControl": "34C96CC1-9118-4531-B770-4ACE042840DB",
+      "MerchantLogin": "Ron_Play24bet"
+    },
+
+    "Skrill": {
+      "PrivateKey": "SkrillSecretPassword1111"
+    },
+
+    "CoinPaid": {
+      "ProcessingKey": "HjECZFxSOn0tnvLavAh8hcXgUhpPrshl",
+      "PrivateKey": "IgYvtBQyMJA5VIhYfBVRzZhy7OCbZ7NyhRlbpJq06Z9ERC1cPBkyRnGxqZ26zk3y"
+    },
+
+    "AstroPay": {
+      "PublicKey": "ujWpmNjW0H8Js04cZD5vjMT0ggEirSby",
+      "PrivateKey": "WBsSzTcxEna3Z7beKIl7Jdu40asK9EzJ"
+    },
+
+    "RealDeposits": {
+      "merchant_id": "API-KOALAROYAL",
+      "application_key": "KOALAROYAL",
+      "merchant_secret": "dExK5BQsogNPrJ10BuypSDqE9gvS5Rs1"
+    },
+
+    "ShefaPay": {
+      "payment_profile": "01943717-6d1d-4be0-9127-c69d085b864e",
+      "organisation": "e94147da-4bef-492c-b59c-a5e8cf8346bf",
+      "api_key": "EjiuL7euYD5g7TK2jMkNwSrpZuGUgN7ojfLSoiyGui5Qprr0QM",
+      "signature": "P.LuDPv7dhy}_'y3shefaPay"
+    },
+
+    "GumballPay": {
+      "EndPointID": "2726",
+      "MerchantControl": "89782066-6F38-4732-88A2-6DD00C4904B9"
+    },
+
+    "GameChangers": {
+      "merchantID": 1738652,
+      "personalHashKey": "FXVHSURV3R"
+    },
+	
+	"EasyX": {
+      "merchant_token":  "76e69960bbce56eb41f46d5da6daa04a461912e3",
+      "merchant_id":     "b1b293a3e4202859ab04e858daa06269baa90647",
+      "merchant_site_id": 299379,
+      "statusUrl": "https://secure.payment-gateway.technology/api/getPaymentStatus"
+    },
+	
+	"EUPayment": {
+      "account_id": "sec1_tp_koalroy_ccdir_aud",
+      "password":   "Cpm*54Pu",
+      "passphrase": "A35b6c9935CdbFB3A24c81E32Ea8EAA9A"
+    }
+  },
+
+  "GameProviders": {
+    "Belatra": {
+      "CasinoID": "koalaroyal",
+      "EncryptionKey": "GL3pi7bXFJ27lnWX"
+    },
+
+    "BetSoft": {
+      "BankID": "5677"
+    },
+
+    "Groove": {
+      "OperatorID": "2134"
+    },
+
+    "Booming": {
+      "AuthKey": "fhzacZGywDWllq+Brqzjgg==",
+      "EncryptionKey": "GTJf1ShY9LpjcSGCBGQVXDiBgy1LObJ0/4WQpFJlCXtYxOQHLXu4+2G9Ue4/Te3g",
+      "ApiCall": "https://api.asia.booming-games.com"
+    },
+
+    "Habanero": {
+      "BrandID": "9fd72a4f-13a0-ea11-96d2-501ac53b47bf",
+      "APIKey": "C6A2757B-AB7D-4BA8-A6C1-02B0B8D0E8E3",
+      "Passkey": "dbc29eee-5468-41c9-b868-652bb345628f",
+      "SpinSecret": "HabanPlay24Bet"
+    },
+
+    "PlayStar": {
+      "HostID": "4be9c2a359a2403b523bb3d81ca3fe6d"
+    },
+
+    "SAGaming": {
+      "ApiCallKey": "9128DD01DEF14C6094E2637274A3A105",
+      "EncryptionKey": "GgaIMaiNNtg",
+      "EncryptionKeyTwo": "g9G16nTs"
+    },
+
+    "Spinomenal": {
+      "PartnerId": "koalaroyal",
+      "EncryptionKey": "df34!Dnjdfxcvfa6"
+    },
+
+    "TomHorn": {
+      "EncryptionKey": "vSPc3NPXBJ7cuwDe",
+      "PartnerId": "0EA80FEC-A0D5-4BA4-8BD9-5C63562D1FB4",
+      "API": "https://s6.toogri.com/"
+    },
+
+    "XPG": {
+      "ProviderKey": "HfwCLXugKJ85pAzdtDV2MmWacbvYBy",
+      "OperatorID": "2273"
+    },
+
+    "ZeusPlay": {
+      "PartnerUrl": "https://fr4.zeuspartner.com/", 
+      "KeyName": "koalaroyal",
+      "EncryptionKey": "a6d0200480f8978579a83143bdebd92e"
+    },
+
+    "MrSlotty": {
+      "ApiUrl": "https://site-sgp1.mrslotty.com/integrations/moneyfly24-koalaroyal/rpc",
+      "ApiCallKey": "11eeaabe-e1b4-4f2f-a377-259a4b7c34cd",
+      "HMACSaltKey": "b3cb1114-b569-4e55-8fc4-160e7cad0e25"
+    },
+	
+	"PlayPearls": {
+      "SiteID": "9b7e98a3-4d6b-4128-8980-a71fb6f8a7c5",
+      "SystemPassword": "d2f7c3ba-bb3f-4f2e-87b0-eed082b1c808"
+    }
+
+  }
+}

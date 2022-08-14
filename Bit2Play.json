@@ -1,0 +1,138 @@
+{
+  "Domain": "bit2play.com",
+
+  "Connection": "Server=jp.bit2play.com;Initial Catalog=CRM_Bit;User Id=BitUser;Password=gGFfjev4md;MultipleActiveResultSets=True;",
+  "Tokens": { // Random
+    "Affiliate": "kOraWFHYwxTLZCVSSR85DX5v6e4aGX9g",
+    "Back": "b97CKyBzBOsZlF0maXtGLeNR5DZKsVPB",
+    "FrontAPI": "d67zi32r4wCW6YIpbcEhl65rVDoIc5AZ",
+    "PaymentIntegration": "29620269687b401ba35fd64621ffbfb3"
+  },
+  "CurrencyList": [ "EUR" ],
+  "Translations": [ "en", "it", "de", "ru", "tr", "fr" ],
+
+  "Captcha": {
+    "PublicKey": "--- NOT SET ---",
+    "SecretKey": "--- NOT SET ---"
+  },
+
+  "SendGridKey": "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",
+  "Currency": "EUR",
+
+  "PaymentProviders": {
+    "WireCapital": {
+      "ApiCallAuthKey": "4855534b7c50325e4b26"
+    },
+
+    "PayOP": {
+      // keys from our PayOp account
+      // "PublicKey": "application-b3141f51-11c2-4b75-883c-9dd85c32afad",
+      // "PrivateKey": "6da28e0678881a55c7091d07"
+      // keys from bet24star owners account
+      "PublicKey": "application-e90ecbd7-1bb0-41f0-839b-4b43d2191f81",
+      "PrivateKey": "c6ee3f43bacffd3b3a2486af"
+    },
+
+    "Praxis": {
+      "merchant_id": "API-casinomarriott",
+      "merchantSecret": "aPRcOEql4vlRnA65HEcq4CW41mUU5AxR",
+      "application_key": "casinomarriott.com"
+    },
+
+    "AstroPay": {
+      "PublicKey": "ujWpmNjW0H8Js04cZD5vjMT0ggEirSby",
+      "PrivateKey": "WBsSzTcxEna3Z7beKIl7Jdu40asK9EzJ"
+    },
+
+    "EUPayment": {
+        "account_id": "sec1_tech_casinojet_cc_redir",
+        "password": "HfcS45+Qp7",
+        "passphrase": "7194bDdCdfaf32CDE23249AF51f7f1D33"
+    },
+
+    "ACE": {
+        "partnerID": "4546",
+        "secretKey": "key_ace_uat_4546"
+    },
+
+    "PiPay": {
+        "mid": "105075",
+        "sid": "16092",
+        "did": "21958",
+        "lang": "EN"
+    }
+  },
+
+  "GameProviders": {
+    "Belatra": {
+      "CasinoID": "casinojet",
+      "EncryptionKey": "6d7599ee29b941cc"
+    },
+
+    "BetSoft": {
+      "BankID": "5439"
+    },
+
+    "Groove": {
+      "OperatorID": "" // NotSetYet
+    },
+
+    "Booming": {
+      "AuthKey": "NliiTgXfzg7VTeU8dy9OFg==",
+      "EncryptionKey": "Qs4X0GrgG7B4kvakdk58CrwtqfN9RZPTOG8qVY4/tnkU2WqELuzyjNXlltxPsWZ5",
+      "ApiCall": "https://api.asia.booming-games.com"
+    },
+
+    "Habanero": {
+      "BrandID": "43d6446f-cdf8-ea11-a522-00155db544bb",
+      "APIKey": "6C56D8F4-5F35-4E65-B023-671B12FEB7AA",
+      "Passkey": "v0N!Zn1S55s7WW@",
+      "SpinSecret": "HabanPlay24Bet",
+      "ApiCallLink": "https://app-test.insvr.com/go.ashx",
+      "ApiBOCallLink": "https://ws-test.insvr.com/jsonapi/"
+    },
+
+    "PlayStar": {
+      "HostID": "5d2e45fd68fac66af4cac199df56a1eb"
+    },
+
+    "SAGaming": {
+      "ApiCallKey": "C4F25092A85F40F88A7FF344DDFED6B6",
+      "EncryptionKey": "GgaIMaiNNtg",
+      "EncryptionKeyTwo": "g9G16nTs"
+    },
+
+    "Spinomenal": {
+      "PartnerId": "casinojet",
+      "EncryptionKey": "df34!Dnjdfxcvfa6"
+    },
+
+    "TomHorn": {
+      "EncryptionKey": "tSJc7VNF64UDAysk",
+      "PartnerId": "C9FB9980-426B-495F-8A46-1768559F4F0E",
+      "API": "https://s6.toogri.com/"
+    },
+
+    "XPG": {
+      "ProviderKey": "mVvTt7ygpskRewQ3jXqG8xJ4LSYCbM",
+      "OperatorID": "2173"
+    },
+
+    "ZeusPlay": {
+      "KeyName": "casinojet",
+      "EncryptionKey": "219887236735"
+    },
+
+    "MrSlotty": {
+      "ApiUrl": "https://staging.mrslotty.com/integrations/moneyfly24-bit2play/rpc",
+      "ApiCallKey": "c1460f88-cc2e-43cb-923e-9dff19500f7a",
+      "HMACSaltKey": "7951cd33-1dde-43a2-ba22-7e1ed3240c48"
+    },
+
+    "PlayPearls": {
+      "siteID": "ae868d71-2252-4c89-94ad-81e0f384854c",
+      "systemPassword": "6ee16640-a028-464b-8513-5a0245dbf57d"
+    }
+
+  }
+}

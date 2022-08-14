@@ -1,0 +1,178 @@
+{
+  "Domain": "lucklycasino.com",
+  "Name":   "LucklyCasino",
+
+  "Connection": "Server=cj.bit2play.com;Initial Catalog=CRM_LucklyCasino;User Id=lucklyCasinoUser;Password=MZY5+f-eZ.y^NrH5;MultipleActiveResultSets=True;",
+  "Tokens": { // Random
+    "Affiliate": "SoqCiH2jQV17NR7QuKig4fZbJKj3fmbT",
+    "Back": "Pt0MvvtV96MW6SVZ4Vkajtn26mM4I3he",
+    "FrontAPI": "tQYdrGQaUMMcJKyk4j6KsRFZHIFLPhn8",
+    "PaymentIntegration": "ba97f30a327248de9bad35a54af1267a"
+  },
+
+  "Captcha": {
+    "PublicKey": "6LcjNyQaAAAAAGAGP9tJkIq0idWtStWdEa2D-Y2P",
+    "SecretKey": "6LcjNyQaAAAAAIfqGkiivN6yL82j8tgWfmRc-cv6"
+  },
+
+  "SendGridKey": "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",
+  "Currency": "EUR",
+  "CurrencyList": [ "EUR" ],
+  "Translations": [ "en", "it", "de", "ru", "tr", "fr", "es" ],
+
+
+  "URLs": {
+    "Affiliate": "https://affiliate.lucklycasino.com" // NotSetYet
+  },
+
+  "Twilio": {
+    "AccountSID": "AC4575cffe31398f40acb6aeb74bbf9b21",
+    "AuthToken": "1817c4ee30db075e9ef2a624fabe2496"
+  },
+
+  "PaymentProviders": {
+    "WireCapital": {
+      "ApiCallAuthKey": ""
+    },
+
+    "Paywize": {
+      "MerchantControl": "34C96CC1-9118-4531-B770-4ACE042840DB",
+      "MerchantLogin": "Ron_Play24bet"
+    },
+
+    "PayOP": {
+      "PublicKey": "application-22f924ec-e22b-4c3a-8d6a-bb34923b2d22",
+      "PrivateKey": "fefc11203ad3e84959c3f869"
+    },
+
+    "AstroPay": {
+      "PublicKey": "",
+      "PrivateKey": ""
+    },
+
+    "CoinPaid": {
+      "ProcessingKey": "pZN4weD9r8L8fGfqHLlPLOqyvk8sMxne",
+      "PrivateKey": "c13Pmsso9MfNUmwvwIgBD5bNj3z00ZYT81pON1w1H7IW7PbfbFw8zPwxscFEsO3S"
+    },
+
+    "RealDeposits": {
+      "merchant_id": "API-casinomarriott",
+      "application_key": "casinomarriott",
+      "merchant_secret": "AdDlxCwyfOcmF20fsJGNO39PSp8X1E2v"
+    },
+
+    "ShefaPay": {
+      "payment_profile": "cc92292b-2000-4d8a-8d6f-1215d167dac8",
+      "organisation": "f2f9d43d-2741-4ca3-b403-fa6ef2bb9028",
+      "api_key": "EjiuL7euYD5g7TK2jMkNwSrpZuGUgN7ojfLSoiyGui5Qprr0QM",
+      "signature": "P.LuDPv7dhy}_'y3shefaPay"
+    },
+
+    "GumballPay": {
+      "EndPointID": "2600",
+      "MerchantControl": "41D389A5-C55D-44F2-9F54-FC2C030D6A88"
+    },
+
+    "GameChangers": {
+      "merchantID": 1234706,
+      "personalHashKey": "I9RDDS5HEI"
+    },
+
+    "Praxis": {
+      "merchant_id": "API-casinomarriott",
+      "merchantSecret": "aPRcOEql4vlRnA65HEcq4CW41mUU5AxR",
+      "application_key": "casinomarriott.com"
+    },
+
+    "EasyX": {
+      "merchant_token": "76e69960bbce56eb41f46d5da6daa04a461912e3",
+      "merchant_id": "b1b293a3e4202859ab04e858daa06269baa90647",
+      "merchant_site_id": 299376,
+      "statusUrl": "https://secure.payment-gateway.technology/api/getPaymentStatus"
+    },
+
+    "EUPayment": {
+      "account_id": "sec1_tp_casmar_ccdir_eur",
+      "password": "632.!Cdt",
+      "passphrase": "9fe0De08e66BbddE09fab3937Ee43D1BF"
+    },
+
+    "ZingPos": {
+      "account_id": "EUR-casinomarriott",
+      "merchantKey": "bit2play",
+      "secretKey": "D3o64QH2E6J3CqyyUR30w2tDTnHb21m0"
+    }
+  },
+
+  "GameProviders": {
+    "Belatra": {
+      "CasinoID": "SpinsAndWin",
+      "EncryptionKey": "ad134943598907a5"
+    },
+
+    "BetSoft": {
+      "BankID": "6020"
+    },
+
+    "Groove": {
+      "OperatorID": "2156"
+    },
+
+    "Booming": {
+      "AuthKey": "zbJsxRMhHPzATMoO2eAl6g==",
+      "EncryptionKey": "8JXhxO54id+mlEmj7sj8ngtw/tVb6b5a7xaouY7Xjr8FDNbEur2dCEcmV8n7LDfG",
+      "ApiCall": "https://api.eu.booming-games.com"
+    },
+
+    "Habanero": {
+      "BrandID": "bdf5d9e0-e9c1-ea11-9b05-501ac5532e5e",
+      "APIKey": "8CE4AF22-A120-4438-A1C9-7BB6112556E0",
+      "Passkey": "1309588e-e3b8-409e-97d9-58a7a6e712cc",
+      "SpinSecret": "HabanPlay24Bet"
+    },
+
+    "PlayStar": {
+      "HostID": "d9b81c5e0ba8cc4a7d47f9582bcf1a71"
+    },
+
+    "SAGaming": {
+      "ApiCallKey": "398850D2D6DE4AA4A50D3AAEAC12CBE2",
+      "EncryptionKey": "GgaIMaiNNtg",
+      "EncryptionKeyTwo": "g9G16nTs"
+    },
+
+    "Spinomenal": {
+      "PartnerId": "caesarswin",
+      "EncryptionKey": "df34!Dnjdfxcvfa6"
+    },
+
+    "TomHorn": {
+      "EncryptionKey": "RVUYvx7Aybs7SZtz",
+      "PartnerId": "71DB370F-8EA8-4DEF-ADAF-C9B3CC6517B0",
+      "API": "https://s6.toogri.com/"
+    },
+
+    "XPG": {
+      "ProviderKey": "cWgUqDM9vJ4j5wme2HynSNPxuG7Qd3",
+      "OperatorID": "2171"
+    },
+
+    "ZeusPlay": {
+      "PartnerUrl": "https://fr4.zeuspartner.com/",
+      "KeyName": "spinsandwin",
+      "EncryptionKey": "8e760040bbad641eaeaea4e50b81cc35"
+    },
+
+    "MrSlotty": {
+      "ApiUrl": "https://site-sgp1.mrslotty.com/integrations/moneyfly24-spinsandwin/rpc",
+      "ApiCallKey": "21192a21-8205-4da5-a2df-74f5b84465ba",
+      "HMACSaltKey": "2820409c-ee6a-4ddf-81ef-7e8b8022fa15"
+    },
+
+    "PlayPearls": {
+      "siteID": "2f8b18bd-daba-4383-8a1f-19e293f31603",
+      "systemPassword": "651f294f-2508-407b-9d43-797af0a7a9f1"
+    }
+
+  }
+}

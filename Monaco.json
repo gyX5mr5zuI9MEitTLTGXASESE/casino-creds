@@ -1,0 +1,178 @@
+{
+  "Domain": "monacospins.com",
+  "Name": "MonacoSpins",
+
+  "Connection": "Server=jp.bit2play.com;Initial Catalog=CRM_765;User Id=765User;Password=F508tN5A44;MultipleActiveResultSets=True;",
+  "Tokens": {
+    "Affiliate": "zVt6aZAv55ZQcpqSP5BLjQlaJLdQIajz",
+    "Back": "M7KazPIiVDCo3PMAaxKA7SYSMTcmucNY",
+    "FrontAPI": "HMwhcmXVQkwaufx62gjgw6wGT2Nc7EeC",
+    "PaymentIntegration": "c0f6617eacab4ea8bb3225ceb60c3f16"
+  },
+
+  "Captcha": {
+    "PublicKey": "6LciNiQaAAAAAMcLffEYv205zwQylBE5jArFMHVk",
+    "SecretKey": "6LciNiQaAAAAAGYiy3ZxtNyroaRivGjI-7ARHu2b"
+  },
+
+  "SupportEmail": "support@monacospinssupport.com",
+  "SendGridKey": "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",
+  "Currency": "EUR",
+  "CurrencyList": [ "EUR" ],
+  "Translations": [ "en", "it", "de" ],
+
+  "Twilio": {
+    "AccountSID": "ACf5f8d95687b932c88967aa9b1589dae5",
+    "AuthToken": "3b4071a3f33aca36b2a19cb571b53dd1"
+  },
+
+  "PaymentProviders": {
+    "WireCapital": {
+      "ApiCallAuthKey": "3405427d54925da07c60"
+    },
+
+    "PayOFix": {
+      "UserName": "p24bmalta.live",
+      "EncryptionKey": "05eb82c059439d041e4e79582fff3730",
+      "SignatureKey": "043243952d2f38809339e185b1aaf9b9"
+    },
+
+    "Paywize": {
+      "MerchantControl": "34C96CC1-9118-4531-B770-4ACE042840DB",
+      "MerchantLogin": "Ron_Play24bet"
+    },
+
+    "PayOP": {
+      "PublicKey": "application-16520d01-eb9a-4ba5-9eda-32ab2514fcfe",
+      "PrivateKey": "6ec37bb806260ee7e7eb2d9f"
+    },
+
+    "Skrill": {
+      "PrivateKey": "SkrillSecretPassword1111"
+    },
+
+    "CoinPaid": {
+      "ProcessingKey": "C85HWSasiqtRiVdyBuIXDLlpsC3RLmio",
+      "PrivateKey": "mxxPSnxTJkeIqRoNZLx1bK9YFxWb7BcG85XTXNr8F6kkQGv4wF4UdpueA5QBpX8a"
+    },
+
+    "AstroPay": {
+      "PublicKey": "ujWpmNjW0H8Js04cZD5vjMT0ggEirSby",
+      "PrivateKey": "WBsSzTcxEna3Z7beKIl7Jdu40asK9EzJ"
+    },
+
+    "RealDeposits": {
+      "merchant_id": "API-monacospins",
+      "application_key": "monacospins",
+      "merchant_secret": "i72aVYUuBS3WIPbTypF5pZvWbPZhgH6T"
+    },
+
+    "ShefaPay": {
+      "payment_profile": "527b3447-3929-4038-8e28-dcb1add639d8",
+      "organisation": "0da634fd-a1bb-4c22-86d3-8cc7bb2597be",
+      "api_key": "EjiuL7euYD5g7TK2jMkNwSrpZuGUgN7ojfLSoiyGui5Qprr0QM",
+      "signature": "P.LuDPv7dhy}_'y3shefaPay"
+    },
+
+    "GumballPay": {
+      "EndPointID": "2599",
+      "MerchantControl": "1514A756-2825-4198-BE1B-10456A3504A9"
+    },
+
+    "GameChangers": {
+      "merchantID": 9516837,
+      "personalHashKey": "UITG8IYUBZ"
+    },
+	
+    "EasyX": {
+      "merchant_token":  "76e69960bbce56eb41f46d5da6daa04a461912e3",
+      "merchant_id":     "b1b293a3e4202859ab04e858daa06269baa90647",
+      "merchant_site_id": 299378,
+      "statusUrl": "https://secure.payment-gateway.technology/api/getPaymentStatus"
+    },
+	
+    "EUPayment": {
+      "account_id": "sec1_tp_monspins_ccdir_eur",
+      "password":   "Ftg745-Xc",
+      "passphrase": "efA8B14c8d139c2FC7e0DAC6ED07b2Cc4"
+    },
+
+    "ZingPos": {
+      "account_id": "EUR-monacospins",
+      "merchantKey": "bit2play",
+      "secretKey": "D3o64QH2E6J3CqyyUR30w2tDTnHb21m0"
+    }
+  },
+
+  "GameProviders": {
+    "Belatra": {
+      "CasinoID": "monacospins",
+      "EncryptionKey": "aacfef12f796d271"
+    },
+
+    "BetSoft": {
+      "BankID": "4389"
+    },
+
+    "Groove": {
+      "OperatorID": "1730"
+    },
+
+    "Booming": {
+      "AuthKey": "Y6hVD1WqAnjyuzwvnp6Obg==",
+      "EncryptionKey": "ajdehVgvsxJ2cRCEyPSN6TPlpWo5GSY65ZElnNJwjr40dU1hzKfGqQ1qQXPpg+rJ",
+      "ApiCall": "https://api.eu.booming-games.com"
+    },
+
+    "Habanero": {
+      "BrandID": "1ea749ea-19b9-e911-a94c-000d3a24d7e6",
+      "APIKey": "8087E87A-707A-4F02-AC98-7F1F98A1CD8B",
+      "Passkey": "jUV7g9qsgGeu9TAx",
+      "SpinSecret": "HabanPlay24Bet"
+    },
+
+    "PlayStar": {
+      "HostID": "85f7dd3e43f01dff617fac6c1a2852fd"
+    },
+
+    "SAGaming": {
+      "ApiCallKey": "B63464B8246B4B3D9C89E66DC3E49092",
+      "EncryptionKey": "GgaIMaiNNtg",
+      "EncryptionKeyTwo": "g9G16nTs"
+    },
+
+    "Spinomenal": {
+      "PartnerId": "casino765",
+      "EncryptionKey": "WxzD6pdL2Y"
+    },
+
+    "TomHorn": {
+      "EncryptionKey": "2sT9TqB8FxBQaVHZ",
+      "PartnerId": "F3BDC234-6CE9-4B71-99A0-6B6722B4CDAE",
+      "API": "https://s8.toogri.com/"
+    },
+
+    "XPG": {
+      "ProviderKey": "N8Rt5PEBxhJAYHcs7Wg3FzLeS9Gv6q",
+      "OperatorID": "1807"
+    },
+
+    "ZeusPlay": {
+      "PartnerUrl": "https://fr4.zeuspartner.com/",
+      "KeyName": "casino765com",
+      "EncryptionKey": "4158646500d34fd0f7eb3c6cb27a7329"
+    },
+
+    "MrSlotty": {
+      "ApiUrl": "https://site-sgp1.mrslotty.com/integrations/moneyfly24-monacospins/rpc",
+      "ApiCallKey": "727d17b4-b3d1-42a8-bc10-e088c2a4614a",
+      "HMACSaltKey": "e4293027-8662-4832-8363-6afa80aafb04"
+    },
+
+    "PlayPearls": {
+      "siteID": "f8706f4a-29d6-4bb4-a332-364c8cfa81d1",
+      "systemPassword": "4b1d2188-532a-4465-ad3f-3bd7d5707057"
+    }
+
+  }
+}

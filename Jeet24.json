@@ -1,0 +1,165 @@
+{
+  "Domain": "jeet24.com",
+  "Name": "Jeet24",
+
+  "Connection": "Server=jp.bit2play.com;Initial Catalog=CRM;User Id=JeetPlayUser;Password=st3Y8y_6;MultipleActiveResultSets=True;",
+  "Tokens": {
+    "Affiliate": "yVxMRtnyl8kQbGZP48lT0iwm7n53hdG0",
+    "Back": "xO918q42PRWLoVktSYVs6ysD2k9FRITY",
+    "FrontAPI": "KQgWLvwx1AI9xKro3podd8ryX3DFrzwu",
+    "PaymentIntegration": "d0ecd9e237e54ab4adad3a0a7c58a612"
+  },
+
+  "Captcha": {
+    "PublicKey": "6LebNCQaAAAAAAlIMlv-uz-i5AIN5hP5PuerNVmU",
+    "SecretKey": "6LebNCQaAAAAAH7BREnQQZiM0P9jpQl9lBp9JVK3"
+  },
+
+  "SupportEmail": "cs@jeet24.com",
+  "SendGridKey": "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",
+  "Currency": "INR",
+  "CurrencyList": [ "INR" ],
+  "Translations": [ "en" ],
+
+
+
+  "URLs": {
+    "Affiliate": "https://affiliates.jeet24.com"
+  },
+
+  "Twilio": {
+    "AccountSID": "ACcecbd261762471238d485b255f47f554",
+    "AuthToken": "d997095567e23d0e70bdb1b423be0091"
+  },
+
+  "PaymentProviders": {
+    "WireCapital": {
+      "ApiCallAuthKey": "cb3271359903a2483268"
+    },
+
+    "PayOFix": {
+      "UserName": "p24bmalta.live",
+      "EncryptionKey": "05eb82c059439d041e4e79582fff3730",
+      "SignatureKey": "043243952d2f38809339e185b1aaf9b9"
+    },
+
+    "PayOP": {
+      "PublicKey": "application-53fa1f17-9294-4af3-af85-6e7a7f563137",
+      "PrivateKey": "05da7a628c2c976e550e401d"
+    },
+
+    "NetBanking": {
+      "MidSecret": "db93117d-ef0b-45bb-b4d2-ff552d50f3be",
+      "MidCode": 83
+    },
+
+    "MuchBetter": {
+      "MidSecret": "db93117d-ef0b-45bb-b4d2-ff552d50f3be",
+      "merchantAccountId": 1
+    },
+
+    "Paywize": {
+      "MerchantControl": "34C96CC1-9118-4531-B770-4ACE042840DB",
+      "MerchantLogin": "Ron_Play24bet"
+    },
+
+    "Skrill": {
+      "PrivateKey": "SkrillSecretPassword1111"
+    },
+
+    "CoinPaid": {
+      "ProcessingKey": "UvJrhFU1ewTpS2zrGFaAinbLmcNDzIKa",
+      "PrivateKey": "8WW6eyRgY9AwKXoWDEQwX029kg82ibu1IoxpLYbYKzRJUA2PmL9jxjtwCUQ1oERV"
+    },
+
+    "AstroPay": {
+      "PublicKey": "ujWpmNjW0H8Js04cZD5vjMT0ggEirSby",
+      "PrivateKey": "WBsSzTcxEna3Z7beKIl7Jdu40asK9EzJ"
+    },
+
+    "RealDeposits": {
+      "merchant_id": "API-JEETPLAY",
+      "application_key": "JEETPLAY",
+      "merchant_secret": "0EPLqu9MWBP5MC4VWwQ5Y3YL7OraXCpH"
+    },
+
+    "ShefaPay": {
+      "payment_profile": "82ee7a25-fddc-42c7-aef6-cbfc84aa1bca",
+      "organisation": "a1810e53-a9be-453d-85ae-cf1791a57991",
+      "api_key": "EjiuL7euYD5g7TK2jMkNwSrpZuGUgN7ojfLSoiyGui5Qprr0QM",
+      "signature": "P.LuDPv7dhy}_'y3shefaPay"
+    }
+  },
+
+  "GameProviders": {
+    "Belatra": {
+      "CasinoID": "jitpley",
+      "EncryptionKey": "ac97bc60c1824fd3"
+    },
+
+    "BetSoft": {
+      "BankID": "4979"
+    },
+
+    "Groove": {
+      "OperatorID": "2050"
+    },
+
+    "Booming": {
+      "AuthKey": "G7UR1yz/j19dECriNfLGCg==",
+      "EncryptionKey": "Y3ZdVRtU71zDjSl317/s6X3RdWYBV+uw+LoQbudF2RljdVC5osVWdt4WP1AfSOZR",
+      "ApiCall": "https://api.asia.booming-games.com"
+    },
+
+    "Habanero": {
+      "BrandID": "ac6961ee-466f-ea11-a94c-501ac53b5945",
+      "APIKey": "2263C9D0-86B7-4C3F-9BBB-57FCFF1D6D38",
+      "Passkey": "6ENV74b8txIEUIvQ9LLD",
+      "SpinSecret": "HabanPlay24Bet"
+    },
+
+    "PlayStar": {
+      "HostID": "9e05eec4e66e44bdab7316ac7b50eb03"
+    },
+
+    "SAGaming": {
+      "ApiCallKey": "1735FA821B3C41219273F8CD08BE0DE6",
+      "EncryptionKey": "GgaIMaiNNtg",
+      "EncryptionKeyTwo": "g9G16nTs"
+    },
+
+    "Spinomenal": {
+      "PartnerId": "jeetplay",
+      "EncryptionKey": "df34!Dnjdfxcvfa6"
+    },
+
+    "TomHorn": {
+      "EncryptionKey": "EPcuX4naRrzKqYDg",
+      "PartnerId": "2BFF12FD-8E94-4516-82A8-201338CBC450",
+      "API": "https://s8.toogri.com/"
+    },
+
+    "XPG": {
+      "ProviderKey": "KF9WHxtaB2syL4qJunUQZEgekNYMhp",
+      "OperatorID": "2106"
+    },
+
+    "ZeusPlay": {
+      "PartnerUrl": "https://fr4.zeuspartner.com/",
+      "KeyName": "jeet24",
+      "EncryptionKey": "ab06b044c83f94ee7b4ac0ad7a5f4f45"
+    },
+
+    "MrSlotty": {
+      "ApiUrl": "https://site-sgp1.mrslotty.com/integrations/moneyfly24-jeetplay/rpc",
+      "ApiCallKey": "c2774ba0-edea-4e2d-80e3-19dc8fb553b7",
+      "HMACSaltKey": "e7ccebcf-c669-414c-820f-a6f9a1c6f4f1"
+    },
+
+    "PlayPearls": {
+      "SiteID": "1f83274b-77f0-41d9-8a8d-cef603be279c",
+      "SystemPassword": "09ceec5c-ce0e-49f3-ac45-7afa58f65cc7"
+    }
+
+  }
+}

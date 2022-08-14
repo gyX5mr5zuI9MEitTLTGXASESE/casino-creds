@@ -1,0 +1,179 @@
+{
+  "Domain": "play24bet.com",
+  "Name": "Play24Bet",
+
+  "Connection": "Server=cj.bit2play.com;Initial Catalog=CRM_P24B;User Id=p24bUser;Password=emPKE5vCxc;MultipleActiveResultSets=True;",
+  "Tokens": {
+    "Affiliate": "Yd9G8CfMVc61pD89kK4DgewKXreyaKwp",
+    "Back": "gEyngfB092MhdoXaeyquUVUvkEfQgIBl",
+    "FrontAPI": "jzVCZPFeGz9xFiVfDWRcazVJrjvmywm6",
+    "PaymentIntegration": "75e1a129c579400090fdb5676b5ee294"
+  },
+
+  "Captcha": {
+    "PublicKey": "6LeDMSQaAAAAACEgy0KhFAVXoXhjOPDI0xtiZyAj",
+    "SecretKey": "6LeDMSQaAAAAAHl7qsknED3X_2X4W-jJ0YinEtZU",
+	"Login": 0
+  },
+
+  "SendGridKey": "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",
+  "Currency": "EUR",
+  "CurrencyList": [ "EUR" ],
+  "Translations": [ "en", "it", "de", "ru", "tr", "fr", "es" ],
+
+  "Twilio": {
+    "AccountSID": "ACa73f020f0abb7ff26d31fc602d5b527d",
+    "AuthToken": "d64d954a6cd4242bae8f7340af094b1f"
+  },
+
+  "URLs": {
+    "Back": "https://back.play24bet.com"
+  },
+
+  "PaymentProviders": {
+    "WireCapital": {
+      "ApiCallAuthKey": "56ec88a05a1289cdc990"
+    },
+
+    "Paywize": {
+      "MerchantControl": "34C96CC1-9118-4531-B770-4ACE042840DB",
+      "MerchantLogin": "Ron_Play24bet"
+    },
+
+    "PayOP": {
+      "PublicKey": "application-eb34aa33-80e3-4c32-be29-7cea8447cd3a",
+      "PrivateKey": "30f281a3219c183ebedf72f2"
+    },
+
+    "CoinPaid": {
+      "ProcessingKey": "bc8PG6NqcuLECIGFm49PwakBD9IbFSOC",
+      "PrivateKey": "1gDM3OpJiZwsxIE8GFUpoZpkHiJqTHch527M6heOpXr42hFatIVlqe7qSbZkziC8"
+    },
+
+    "AstroPay": {
+      "PublicKey": "ujWpmNjW0H8Js04cZD5vjMT0ggEirSby",
+      "PrivateKey": "WBsSzTcxEna3Z7beKIl7Jdu40asK9EzJ"
+    },
+
+    "RealDeposits": {
+      "merchant_id": "API-PLAY24BET",
+      "application_key": "PLAY24BET",
+      "merchant_secret": "p609V1njrs0CplsmftdHYq6KeSnzAoly"
+    },
+
+    "RealDeposits-test": {
+      "merchant_id": "API-P24-test",
+      "application_key": "p24-test",
+      "merchant_secret": "8eUPPDdrdLL7pITL7rC5Qgkn395izGQI"
+    },
+
+    "ShefaPay": {
+      "payment_profile": "660ec1fc-86be-4384-a5e6-217a468c346c",
+      "organisation": "7638f288-71f8-44d7-8fdc-b5b2b33ac7be",
+      "api_key": "EjiuL7euYD5g7TK2jMkNwSrpZuGUgN7ojfLSoiyGui5Qprr0QM",
+      "signature": "P.LuDPv7dhy}_'y3shefaPay"
+    },
+
+    "GumballPay": {
+      "EndPointID": "2601",
+      "MerchantControl": "EEB9C01D-E702-4504-850E-57700C3ED238"
+    },
+
+    "GameChangers": {
+      "merchantID": 3461515,
+      "personalHashKey": "ZBTIB3CHKR"
+    },
+	
+    "EasyX": {
+      "merchant_token":  "76e69960bbce56eb41f46d5da6daa04a461912e3",
+      "merchant_id":     "b1b293a3e4202859ab04e858daa06269baa90647",
+      "merchant_site_id": 299377,
+      "statusUrl": "https://secure.payment-gateway.technology/api/getPaymentStatus"
+    },
+	
+    "EUPayment": {
+      "account_id": "sec1_tp_play24_ccdir_eur",
+      "password":   "Ht569V.B",
+      "passphrase": "2ec6D4daEd3FAd61e1CF4b5e0BdC617Ed"
+    },
+
+    "ZingPos": {
+      "account_id": "EUR-play24bet",
+      "merchantKey": "bit2play",
+      "secretKey": "D3o64QH2E6J3CqyyUR30w2tDTnHb21m0"
+    }
+
+  },
+
+  "GameProviders": {
+    "Belatra": {
+      "CasinoID": "p24b",
+      "EncryptionKey": "zz7m7XWf26dJYqAm"
+    },
+
+    "BetSoft": {
+      "BankID": "2564"
+    },
+
+    "Groove": {
+      "OperatorID": "1729"
+    },
+
+    "Booming": {
+      "AuthKey": "RPyBnlKaet/V+kssnRKwkw==",
+      "EncryptionKey": "tV93COC5sQUZzVHcvZxsZlr4afeIFixG6GDouJ50GHRrg7b8sVGfaXTdwZWaZDMt",
+      "ApiCall": "https://api.eu.booming-games.com"
+    },
+
+    "Habanero": {
+      "BrandID": "c40307f8-0f2c-e811-a94c-000d3a24d7e6",
+      "APIKey": "C63E9666-227F-46B8-A834-DF94A46C7B82",
+      "Passkey": "jUV7g9qsgGeu9TAx",
+      "SpinSecret": "HabanPlay24Bet"
+    },
+
+    "PlayStar": {
+      "HostID": "9600e93114982e329371813eda41000b"
+    },
+
+    "SAGaming": {
+      "ApiCallKey": "8425E193224F446FA0697EC1A69C68C4",
+      "EncryptionKey": "GgaIMaiNNtg",
+      "EncryptionKeyTwo": "g9G16nTs"
+    },
+
+    "Spinomenal": {
+      "PartnerId": "play24bet-live",
+      "EncryptionKey": "df34!Dnjdfxcvfa6"
+    },
+
+    "TomHorn": {
+      "EncryptionKey": "F6GXKcQedt4BtKMa",
+      "PartnerId": "91D9ADA6-CB05-4AEF-A09C-736E07360CD8",
+      "API": "https://s8.toogri.com/"
+    },
+
+    "XPG": {
+      "ProviderKey": "rVAuFXMZW9n3Tc7fmtQpCKJbP5eGYh",
+      "OperatorID": "1973"
+    },
+
+    "ZeusPlay": {
+      "PartnerUrl": "https://fr4.zeuspartner.com/",
+      "KeyName": "play24bet",
+      "EncryptionKey": "c197492017f3dbdc2966e2210b032619"
+    },
+
+    "MrSlotty": {
+      "ApiUrl": "https://site-sgp1.mrslotty.com/integrations/moneyfly24-play24bet/rpc",
+      "ApiCallKey": "51ff2172-bc92-44d5-92bf-1c282120b9d6",
+      "HMACSaltKey": "aeabc2c8-bfd2-48a4-b0b3-324db9b0f53c"
+    },
+
+    "PlayPearls": {
+      "SiteID": "b725fb11-6db9-4450-8ca0-5de28efe71bc",
+      "SystemPassword": "0ede0d8f-4533-4187-a50f-3af143231349"
+    }
+
+  }
+}

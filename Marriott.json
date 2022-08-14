@@ -1,0 +1,175 @@
+{
+  "Domain": "casinomarriott.com",
+  "Name": "CasinoMarriott",
+
+  "Connection": "Server=jp.bit2play.com;Initial Catalog=CRM_Marr;User Id=marrUser;Password=321slMrtlP;MultipleActiveResultSets=True;",
+  "Tokens": {
+    "Affiliate": "Yd9G8CfMVc61pD89kK4DgewKXreyaKwp",
+    "Back": "gEyngfB092MhdoXaeyquUVUvkEfQgIBl",
+    "FrontAPI": "jzVCZPFeGz9xFiVfDWRcazVJrjvmywm6",
+    "PaymentIntegration": "47c919727f1142f99477d66a179c1a88"
+  },
+
+  "Captcha": {
+    "PublicKey": "6LeBNSQaAAAAACnK9wvP44m32I5_SJTVxrT8SECv",
+    "SecretKey": "6LeBNSQaAAAAAMQiFMtazaF-epXxEfqCQACqQR63"
+  },
+
+  "SendGridKey": "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",
+  "Currency": "EUR",
+  "CurrencyList": ["EUR"],
+  "Translations": [ "en", "it", "de", "ru", "tr", "fr", "es"],  
+  
+  "Twilio": {
+    "AccountSID": "ACf5f8d95687b932c88967aa9b1589dae5",
+    "AuthToken": "3b4071a3f33aca36b2a19cb571b53dd1"
+  },
+
+  "PaymentProviders": {
+    "WireCapital": {
+      "ApiCallAuthKey": ""
+    },
+
+    "Paywize": {
+      "MerchantControl": "34C96CC1-9118-4531-B770-4ACE042840DB",
+      "MerchantLogin": "Ron_Play24bet"
+    },
+
+    "PayOP": {
+      "PublicKey": "application-22f924ec-e22b-4c3a-8d6a-bb34923b2d22",
+      "PrivateKey": "fefc11203ad3e84959c3f869"
+    },
+
+    "AstroPay": {
+      "PublicKey": "",
+      "PrivateKey": ""
+    },
+
+    "CoinPaid": {
+      "ProcessingKey": "pZN4weD9r8L8fGfqHLlPLOqyvk8sMxne",
+      "PrivateKey": "c13Pmsso9MfNUmwvwIgBD5bNj3z00ZYT81pON1w1H7IW7PbfbFw8zPwxscFEsO3S"
+    },
+
+    "RealDeposits": {
+      "merchant_id": "API-casinomarriott",
+      "application_key": "casinomarriott",
+      "merchant_secret": "AdDlxCwyfOcmF20fsJGNO39PSp8X1E2v"
+    },
+
+    "ShefaPay": {
+      "payment_profile": "cc92292b-2000-4d8a-8d6f-1215d167dac8",
+      "organisation": "f2f9d43d-2741-4ca3-b403-fa6ef2bb9028",
+      "api_key": "EjiuL7euYD5g7TK2jMkNwSrpZuGUgN7ojfLSoiyGui5Qprr0QM",
+      "signature": "P.LuDPv7dhy}_'y3shefaPay"
+    },
+
+    "GumballPay": {
+      "EndPointID": "2600",
+      "MerchantControl": "41D389A5-C55D-44F2-9F54-FC2C030D6A88"
+    },
+
+    "GameChangers": {
+      "merchantID": 1234706,
+      "personalHashKey": "I9RDDS5HEI"
+    },
+
+    "Praxis": {
+      "merchant_id": "API-casinomarriott",
+      "merchantSecret": "aPRcOEql4vlRnA65HEcq4CW41mUU5AxR",
+      "application_key": "casinomarriott.com"
+    },
+
+    "EasyX": {
+      "merchant_token": "76e69960bbce56eb41f46d5da6daa04a461912e3",
+      "merchant_id": "b1b293a3e4202859ab04e858daa06269baa90647",
+      "merchant_site_id": 299376,
+      "statusUrl": "https://secure.payment-gateway.technology/api/getPaymentStatus"
+    },
+                                                                            
+    "EUPayment": {
+      "account_id": "sec1_bpm_bet24star",
+      "password":   "F4b6Dc!N8",
+      "passphrase": "5c142003a0a7f02B959c26EFD6AA499d8",
+      "APIUrl":     "https://ts.secure1gateway.com/api/v2/processTx",
+      "statusUrl":  "https://ts.secure1gateway.com/api/v2/processTxGetStatus"
+    },
+
+    "ZingPos": {
+      "account_id": "EUR-casinomarriott",
+      "merchantKey": "bit2play",
+      "secretKey": "D3o64QH2E6J3CqyyUR30w2tDTnHb21m0"
+    }
+  },
+
+  "GameProviders": {
+    "Belatra": {
+      "CasinoID": "marriott",
+      "EncryptionKey": "3598353dca474616"
+    },
+
+    "BetSoft": {
+      "BankID": "5614"
+    },
+
+    "Groove": {
+      "OperatorID": ""
+    },
+
+    "Booming": {
+      "AuthKey": "ujTNmeembSuVex0IKz89aQ==",
+      "EncryptionKey": "4bGw1ETJgHRuY6suHBXFnp5j6/WVNmDLnz19gedgCftWHE2e/O5uxvqeGyiI5JUZ",
+      "ApiCall": "https://api.eu.booming-games.com"
+    },
+
+    "Habanero": {
+      "BrandID": "d7f8519f-cbf8-ea11-96f5-501ac59bab8b",
+      "APIKey": "46EE0022-D897-4DC6-BB3E-B1AEBCDAE987",
+      "Passkey": "yn6Bh091mxf!0kw",
+      "SpinSecret": "HabanPlay24Bet"
+    },
+
+    "PlayStar": {
+      "HostID": "6160b7c3c47f8437e8c87a276a4d5c8e"
+    },
+
+    "SAGaming": {
+      "ApiCallKey": "196669608FED4874AFDBD310689BBCF5",
+      "EncryptionKey": "GgaIMaiNNtg",
+      "EncryptionKeyTwo": "g9G16nTs"
+    },
+
+    "Spinomenal": {
+      "PartnerId": "play24bet-CasinoMarriott",
+      "EncryptionKey": "df34!Dnjdfxcvfa6"
+    },
+
+    "TomHorn": {
+      "EncryptionKey": "zBHaQne9zzwGSv5h",
+      "PartnerId": "663919C6-3FC0-4015-B1F8-931CA1A57E78",
+      "API": "https://s6.toogri.com"
+    },
+
+    "XPG": {
+      "ProviderKey": "pEs6tVRhdBeULkYz4bH2j3F8yNc5rZ",
+      "OperatorID": "2237"
+    },
+
+    "ZeusPlay": {
+      "PartnerUrl": "https://fr4.zeuspartner.com/",
+      "KeyName": "casinomarriott",
+      "EncryptionKey": "284fbfb8d1f6e27facb8f08e461800f0"
+    },
+
+    "MrSlotty": {
+        "ApiUrl": "https://site-sgp1.mrslotty.com/integrations/moneyfly24-casinomarriott/rpc",
+        "ApiCallKey": "5c754a1b-4739-459a-962f-2b543534cd71",
+        "HMACSaltKey": "6c1105d5-5b49-497b-8ba9-85ef6036c144"
+    },
+	
+    "PlayPearls": {
+      "SiteID": "08cd05b1-3efd-4111-ac5e-93b050ed51c2",
+      "SystemPassword": "82e59447-1472-4940-ade9-46b1e5f84105"
+    }
+
+  }
+}

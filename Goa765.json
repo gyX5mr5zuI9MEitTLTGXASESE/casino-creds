@@ -1,0 +1,158 @@
+{
+  "Domain": "goa765.com",
+  "Name": "Goa765",
+
+  "Connection": "Server=cj.bit2play.com;Initial Catalog=CRM_Goa;User Id=goaUser;Password=90qRTOEdWl;MultipleActiveResultSets=True;",
+  "Tokens": {
+    "Affiliate": "3qJuz17zPfE79sH9fD8Nho2RpjjfiAkH",
+    "Back": "IZmBX153Yf7mO1oXNCyleGGEfYRAxRd8",
+    "FrontAPI": "MTaumzn9nt499D5TPbh9mvxgFp6aaEwI",
+    "PaymentIntegration": "dd4956976a1544c19bb757d4a8fedc4d"
+  },
+
+  "Captcha": {
+    "PublicKey": "6LfJwgAaAAAAAAUmU6sC9X6_fHfLafd6DfnH8aRV",
+    "SecretKey": "6LfJwgAaAAAAABaEgUUpBnfWJSyaEeI9HgIaxhJc"
+  },
+
+  "SendGridKey": "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",
+  "Currency": "INR",
+  "CurrencyList": [ "INR" ],
+  "Translations": [ "en" ],
+
+  "Twilio": {
+    "AccountSID": "",
+    "AuthToken": ""
+  },
+
+  "PaymentProviders": {
+    "WireCapital": {
+      "ApiCallAuthKey": "52015dc8b256f9cdf638"
+    },
+
+    "PayOP": {
+      "PublicKey": "application-cf6376d7-10a2-4ec3-8785-c7389903f325",
+      "PrivateKey": "d10c7d9ae34dbf2f9cf7d163"
+    },
+
+    "NetBanking": {
+      "MidSecret": "6c996dba-e6d7-4ca8-93d5-de3f8bf8fcc3",
+      "MidCode": 98
+    },
+
+    "MuchBetter": {
+      "MidSecret": "db93117d-ef0b-45bb-b4d2-ff552d50f3be --- from JP. CHECK&CHANGE",
+      "merchantAccountId": 1
+    },
+
+    "Paywize": {
+      "MerchantControl": "34C96CC1-9118-4531-B770-4ACE042840DB",
+      "MerchantLogin": "Ron_Play24bet"
+    },
+
+    "Skrill": {
+      "PrivateKey": "SkrillSecretPassword1111"
+    },
+
+    "CoinPaid": {
+      "ProcessingKey": "HjECZFxSOn0tnvLavAh8hcXgUhpPrshl",
+      "PrivateKey": "IgYvtBQyMJA5VIhYfBVRzZhy7OCbZ7NyhRlbpJq06Z9ERC1cPBkyRnGxqZ26zk3y"
+    },
+
+    "AstroPay": {
+      "PublicKey": "ujWpmNjW0H8Js04cZD5vjMT0ggEirSby",
+      "PrivateKey": "WBsSzTcxEna3Z7beKIl7Jdu40asK9EzJ"
+    },
+
+    "RealDeposits": {
+      "merchant_id": "API-KOALAROYAL",
+      "application_key": "KOALAROYAL",
+      "merchant_secret": "dExK5BQsogNPrJ10BuypSDqE9gvS5Rs1"
+    },
+
+    "ShefaPay": {
+      "payment_profile": "01943717-6d1d-4be0-9127-c69d085b864e",
+      "organisation": "e94147da-4bef-492c-b59c-a5e8cf8346bf",
+      "api_key": "EjiuL7euYD5g7TK2jMkNwSrpZuGUgN7ojfLSoiyGui5Qprr0QM",
+      "signature": "P.LuDPv7dhy}_'y3shefaPay"
+    },
+
+    "RazorPay": {
+      "Key_ID": "rzp_live_PzPwrSqm2T5OJA",
+      "Key_Secret": "drTMXpXLRwNTBYUMftlxmEis"
+    }
+
+  },
+
+  "GameProviders": {
+    "Belatra": {
+      "CasinoID": "Goa567",
+      "EncryptionKey": "DkI9nk50Yk4doe"
+    },
+
+    "BetSoft": {
+      "BankID": "5771"
+    },
+
+    "Groove": {
+      "OperatorID": "2134"
+    },
+
+    "Booming": {
+      "AuthKey": "fhzacZGywDWllq+Brqzjgg==",
+      "EncryptionKey": "GTJf1ShY9LpjcSGCBGQVXDiBgy1LObJ0/4WQpFJlCXtYxOQHLXu4+2G9Ue4/Te3g",
+      "ApiCall": "https://api.asia.booming-games.com"
+    },
+
+    "Habanero": {
+      "BrandID": "52db0536-8d38-eb11-9fb4-dc98400208ff",
+      "APIKey": "05DE532B-E099-4128-BD6D-A4C2AB22F70B",
+      "Passkey": "nfbA8%S49EBF7P!",
+      "SpinSecret": "HabanPlay24Bet"
+    },
+
+    "PlayStar": {
+      "HostID": "221d2f99dd310114574a214b38afcb6b"
+    },
+
+    "SAGaming": {
+      "ApiCallKey": "AB700A530318449E9E2FD6433510FF26",
+      "EncryptionKey": "GgaIMaiNNtg",
+      "EncryptionKeyTwo": "g9G16nTs"
+    },
+
+    "Spinomenal": {
+      "PartnerId": "koalaroyal",
+      "EncryptionKey": "df34!Dnjdfxcvfa6"
+    },
+
+    "TomHorn": {
+      "EncryptionKey": "vSPc3NPXBJ7cuwDe",
+      "PartnerId": "0EA80FEC-A0D5-4BA4-8BD9-5C63562D1FB4",
+      "API": "https://s6.toogri.com/"
+    },
+
+    "XPG": {
+      "ProviderKey": "z5RvCPgkc9L6amNxnbwtWQZKqMB7Ve",
+      "OperatorID": "2345"
+    },
+
+    "ZeusPlay": {
+      "PartnerUrl": "https://fr4.zeuspartner.com/",
+      "KeyName": "goa567",
+      "EncryptionKey": "39ac9ca0614744cdc5e7f558c862a8f6"
+    },
+
+    "MrSlotty": {
+      "ApiUrl": "https://site-sgp1.mrslotty.com/integrations/moneyfly24-goa567/rpc",
+      "ApiCallKey": "5abb393e-01d5-49e8-a4f1-0cf0db81431c",
+      "HMACSaltKey": "b793a787-7d42-48f1-ba34-bb204e6aed3f"
+    },
+
+    "PlayPearls": {
+      "SiteID": "d1a0325f-7eba-4d55-84f1-4f73b32dde20",
+      "SystemPassword": "3b03f2dc-edf3-4e40-8f62-ea9e8477a1fd"
+    }
+
+  }
+}

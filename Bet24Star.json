@@ -1,0 +1,183 @@
+{
+  "Domain": "bet24star.com",
+  "Name": "Bet24Star",
+
+  "Connection": "Server=cj.bit2play.com;Initial Catalog=CRM_Star;User Id=starUser;Password=LzjCuj5OMV;MultipleActiveResultSets=True;",
+  "Tokens": { // Random
+    "Affiliate": "7eYszZ1rN5YRFA8pZVN4lspMXJEoQ2yO",
+    "Back": "zVtcIqUCsx6YvMCoPxRiDLDQaPXRCL1o",
+    "FrontAPI": "2O4VERAzbIWqDI7ymNZzsDEl98qZVv0H",
+    "PaymentIntegration": "b778c594f9924ea79d3d8b459be6baa1"
+  },
+
+  "Captcha": {
+    "PublicKey": "6LehNiQaAAAAAOh4y401lqICrhjfzvzNMxOif7rN",
+    "SecretKey": "6LehNiQaAAAAAGU_t0imaXV7RQTkegsTih0EjDEI"
+  },
+
+  "SendGridKey": "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",
+  "Currency": "EUR",
+  "CurrencyList": [ "EUR" ],
+  "Translations": [ "en", "it", "es", "de" ],
+
+  "URLs": {
+    "Affiliate": "https://affiliate.bet24star.com"
+  },
+
+  "Twilio": {
+    "AccountSID": "AC7b48757e369eac1b20463debcef0f002",
+    "AuthToken": "f36ba1f0e7eb31a80f0c1af595194a8d"
+  },
+
+  "PaymentProviders": {
+    "WireCapital": {
+      "ApiCallAuthKey": "" // NotSetYet
+    },
+
+    "Paywize": {
+      "MerchantControl": "34C96CC1-9118-4531-B770-4ACE042840DB",
+      "MerchantLogin": "Ron_Play24bet"
+    },
+
+    "PayOP": {
+      "PublicKey": "application-e90ecbd7-1bb0-41f0-839b-4b43d2191f81",
+      "PrivateKey": "c6ee3f43bacffd3b3a2486af"
+    },
+
+    "Skrill": {
+      "PrivateKey": "SkrillSecretPassword1111"
+    },
+
+    "CoinPaid": {
+      "ProcessingKey": "pz3LQ0nJJd1g2lXH340Dwx9xpglVbfSi",
+      "PrivateKey": "OYRKGEEymBq7hNxtVBdxSCDMHewi75gBwNseikvCNiFJfVGhM2foCQzwIcRvNSsZ"
+    },
+
+    "AstroPay": {
+      "PublicKey": "ujWpmNjW0H8Js04cZD5vjMT0ggEirSby",
+      "PrivateKey": "WBsSzTcxEna3Z7beKIl7Jdu40asK9EzJ"
+    },
+
+    "RealDeposits": {
+      "merchant_id": "API-bet24star",
+      "application_key": "bet24star",
+      "merchant_secret": "ARBHbzSh4Jggifza94oHScnoXxQFBniC"
+    },
+
+    "GumballPay": {
+      "EndPointID": "2366",
+      "MerchantControl": "E021BB46-2A1C-4655-ABC0-A4A0F88DB751"
+    },
+
+    "GameChangers": {
+      "merchantID": 7942301,
+      "personalHashKey": "VGNKKWJDIS"
+    },
+
+    "EasyX": {
+      "merchant_token": "76e69960bbce56eb41f46d5da6daa04a461912e3",
+      "merchant_id": "b1b293a3e4202859ab04e858daa06269baa90647",
+      "merchant_site_id": 299374,
+      "apiUrl": "https://secure.capitalmanagement.online/api/payment",
+      "statusUrl": "https://secure.capitalmanagement.online/api/getPaymentStatus"
+    },
+
+
+    "EUPayment": {
+      "account_id": "sec1_bpm_bet24star",
+      "password": "F4b6Dc!N8",
+      "passphrase": "5c142003a0a7f02B959c26EFD6AA499d8",
+      "APIUrl": "https://ts.secure1gateway.com/api/v2/processTx",
+      "statusUrl": "https://ts.secure1gateway.com/api/v2/processTxGetStatus"
+    },
+
+    "ZingPos": {
+      "account_id": "EUR-bet24star",
+      "merchantKey": "bit2play",
+      "secretKey": "D3o64QH2E6J3CqyyUR30w2tDTnHb21m0"
+    },
+    "WorldCard": {
+      "publicApiKey": "pk_test_EDUQxfET521_XFZpfVAGfyuHJr19ByZa9uALNIi1qTI",
+      "privateApiKey": "sk_test_x1pTDRk74bXCsym2O9qZGuN-QFPM6V-J1uaWmtRtP5s",
+      "apiUrl": "https://pay.worldcardgate.com/hpp/"
+    },
+
+    "Praxis": {
+      "merchant_id": "API-bet24star",
+      "merchantSecret": "njjN162r5WO1KdjxM8otmYMFbCaBG2Rc",
+      "APIUrl": "https://gateway.cashier-test.com/cashier/cashier",
+      "application_key": "bet24star.com"
+    }
+  },
+
+  "GameProviders": {
+    "Belatra": {
+      "CasinoID": "bet24star",
+      "EncryptionKey": "b4c2787bde756ae5"
+    },
+
+    "BetSoft": {
+      "BankID": "5440"
+    },
+
+    "Groove": {
+      "OperatorID": "2198"
+    },
+
+    "Booming": {
+      "AuthKey": "2JFKIUHi/KhOPMrVQdRYPg==",
+      "EncryptionKey": "+iXJs/VMbN5XoT6/8PPttt/4Epco3GP4cQcWw4uX6+9W1Z1gSDQtavf9GkK9N//I",
+      "ApiCall": "https://api.eu.booming-games.com"
+    },
+
+    "Habanero": {
+      "BrandID": "b9bd6c6f-e9c1-ea11-9b05-501ac5532e5e",
+      "APIKey": "67DD0AA5-C764-4994-8D7D-3F45ADAE2E55",
+      "Passkey": "ca1c54e6-1bd5-4956-966d-944074bcc772",
+      "SpinSecret": "HabanPlay24Bet"
+    },
+
+    "PlayStar": {
+      "HostID": "cfe2eb84539ed59dada7040a47079234"
+    },
+
+    "SAGaming": {
+      "ApiCallKey": "A6F5101ACCAB4AB58F9B9134CC856686",
+      "EncryptionKey": "GgaIMaiNNtg",
+      "EncryptionKeyTwo": "g9G16nTs"
+    },
+
+    "Spinomenal": {
+      "PartnerId": "bet24star",
+      "EncryptionKey": "df34!Dnjdfxcvfa6"
+    },
+
+    "TomHorn": {
+      "EncryptionKey": "N8pfYBEHzyHeSQbJ",
+      "PartnerId": "89FC7CB8-EF1D-4D98-91D6-9AD633FE3B89",
+      "API": "https://s6.toogri.com/"
+    },
+
+    "XPG": {
+      "ProviderKey": "jwA92vDWKsZ6kpQTueyB7zUhbVJPHd",
+      "OperatorID": "2172"
+    },
+
+    "ZeusPlay": {
+      "PartnerUrl": "https://fr4.zeuspartner.com/",
+      "KeyName": "bet24star",
+      "EncryptionKey": "783f0de1300c4043cae8adc9e748f599"
+    },
+
+    "MrSlotty": {
+      "ApiUrl": "https://site-sgp1.mrslotty.com/integrations/moneyfly24-bet24star/rpc",
+      "ApiCallKey": "f84458b6-9bcb-4140-8f62-0c2fc4bab731",
+      "HMACSaltKey": "1e9a7cd0-566e-43de-9cd6-6f3f7f24335f"
+    },
+
+    "PlayPearls": {
+      "siteID": "507affac-fcb8-48eb-a3b2-dd27a82a8b39",
+      "systemPassword": "b67e437b-8c85-4ca1-b443-43a17a43b8f2"
+    }
+  }
+}

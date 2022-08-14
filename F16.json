@@ -1,0 +1,167 @@
+{
+  "Domain": "casinof16.com",
+  "Name": "CasinoF16",
+
+  "Connection": "Server=jp.bit2play.com;Initial Catalog=CRM_F16;User Id=F16User;Password=rN8BJkvmvDxVsjtGsGVp;MultipleActiveResultSets=True;",
+  "Tokens": {
+    "Affiliate": "a19e04a63b844f988e0f19a4585dd57e",
+    "Back": "6392bc7e47444236baf75910a9f30bee",
+    "FrontAPI": "94d2a06633cd4c9e8b69bf2290a5fdac",
+    "PaymentIntegration": "451a1321f0a246489a34e0cfa40f0d3b"
+  },
+
+  "Captcha": {
+    "PublicKey": "6LebexcbAAAAAO7rgl7QiNmbD0dIBVPeJnBqqDRE",
+    "SecretKey": "6LebexcbAAAAAO9niqQuepowsx7kUhjx3rJCu3_e"
+  },
+
+  "SendGridKey": "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",
+  "Currency": "ZAR",
+  "CurrencyList": [ "ZAR" ],
+  "Translations": [ "en", "de", "fr", "es" ],
+
+  "Twilio": {
+    "AccountSID": "ACf5f8d95687b932c88967aa9b1589dae5",
+    "AuthToken": "3b4071a3f33aca36b2a19cb571b53dd1"
+  },
+
+  "PaymentProviders": {
+    "WireCapital": {
+      "ApiCallAuthKey": ""
+    },
+
+    "Paywize": {
+      "MerchantControl": "34C96CC1-9118-4531-B770-4ACE042840DB",
+      "MerchantLogin": "Ron_Play24bet"
+    },
+
+    "PayOP": {
+      "PublicKey": "application-22f924ec-e22b-4c3a-8d6a-bb34923b2d22",
+      "PrivateKey": "fefc11203ad3e84959c3f869"
+    },
+
+    "AstroPay": {
+      "PublicKey": "",
+      "PrivateKey": ""
+    },
+
+    "CoinPaid": {
+      "ProcessingKey": "pZN4weD9r8L8fGfqHLlPLOqyvk8sMxne",
+      "PrivateKey": "c13Pmsso9MfNUmwvwIgBD5bNj3z00ZYT81pON1w1H7IW7PbfbFw8zPwxscFEsO3S"
+    },
+
+    "RealDeposits": {
+      "merchant_id": "API-casinomarriott",
+      "application_key": "casinomarriott",
+      "merchant_secret": "AdDlxCwyfOcmF20fsJGNO39PSp8X1E2v"
+    },
+
+    "ShefaPay": {
+      "payment_profile": "cc92292b-2000-4d8a-8d6f-1215d167dac8",
+      "organisation": "f2f9d43d-2741-4ca3-b403-fa6ef2bb9028",
+      "api_key": "EjiuL7euYD5g7TK2jMkNwSrpZuGUgN7ojfLSoiyGui5Qprr0QM",
+      "signature": "P.LuDPv7dhy}_'y3shefaPay"
+    },
+
+    "GumballPay": {
+      "EndPointID": "2600",
+      "MerchantControl": "41D389A5-C55D-44F2-9F54-FC2C030D6A88"
+    },
+
+    "GameChangers": {
+      "merchantID": 1234706,
+      "personalHashKey": "I9RDDS5HEI"
+    },
+
+    "Praxis": {
+      "merchant_id": "API-casinomarriott",
+      "merchantSecret": "aPRcOEql4vlRnA65HEcq4CW41mUU5AxR",
+      "application_key": "casinomarriott.com"
+    },
+
+    "EasyX": {
+      "merchant_token": "76e69960bbce56eb41f46d5da6daa04a461912e3",
+      "merchant_id": "b1b293a3e4202859ab04e858daa06269baa90647",
+      "merchant_site_id": 299376,
+      "statusUrl": "https://secure.payment-gateway.technology/api/getPaymentStatus"
+    },
+	
+    "PayGuru": {
+      "username": "CASof@16API",
+      "password": "35fCfMtGgdTkcLnA"
+    }
+
+  },
+
+  "GameProviders": {
+    "Belatra": {
+      "CasinoID": "casinof16",
+      "EncryptionKey": "a474616MGcupOBzU"
+    },
+
+    "BetSoft": {
+      "BankID": "6403"
+    },
+
+    "Groove": {
+      "OperatorID": ""
+    },
+
+    "Booming": {
+      "AuthKey": "ujTNmeembSuVex0IKz89aQ==",
+      "EncryptionKey": "4bGw1ETJgHRuY6suHBXFnp5j6/WVNmDLnz19gedgCftWHE2e/O5uxvqeGyiI5JUZ",
+      "ApiCall": "https://api.eu.booming-games.com"
+    },
+
+    "Habanero": {
+      "BrandID": "0e718da2-e6c6-eb11-94b3-281878eec538",
+      "APIKey": "AEF56FEB-A3ED-481D-B91C-7E661083AD2A",
+      "Passkey": "U5ZEBcqP!trj8x0",
+      "SpinSecret": "HabanPlay24Bet"
+    },
+
+    "PlayStar": {
+      "HostID": "6160b7c3c47f8437e8c87a276a4d5c8e"
+    },
+
+    "SAGaming": {
+      "ApiCallKey": "E2CA257B9908405DBE010EDF420EF5AB",
+      "EncryptionKey": "GgaIMaiNNtg",
+      "EncryptionKeyTwo": "g9G16nTs"
+    },
+
+    "Spinomenal": {
+      "PartnerId": "casinof16",
+      "EncryptionKey": "df34!Dnjdfxcvfa6"
+    },
+
+    "TomHorn": {
+      "EncryptionKey": "34caMhhp9Q7aAbj3",
+      "PartnerId": "FCBB8A8A-7659-4D7E-94B7-A4AF62CCD4B6",
+      "API": "https://s6.toogri.com/"
+    },
+
+    "XPG": {
+      "ProviderKey": "hDnayLu6J4vBpFjg8EG2RqWkm5ACtV",
+      "OperatorID": "2533"
+    },
+
+    "ZeusPlay": {
+      "PartnerUrl": "https://fr4.zeuspartner.com/",
+      "KeyName": "casinof16",
+      "EncryptionKey": "4cbfc4d17618cde2638cf78c16aeb6e8"
+    },
+
+    "MrSlotty": {
+      "ApiUrl": "https://site-sgp1.mrslotty.com/integrations/moneyfly24-casinof16/rpc",
+      "ApiCallKey": "73a8dc31-bbc0-4c5d-8083-f91d4ed94c1c",
+      "HMACSaltKey": "38da8ea8-743c-4574-8339-78451bf26938"
+    },
+
+    "PlayPearls": {
+      "SiteID": "08cd05b1-3efd-4111-ac5e-93b050ed51c2",
+      "SystemPassword": "82e59447-1472-4940-ade9-46b1e5f84105"
+    }
+
+  }
+} 

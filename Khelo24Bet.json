@@ -1,0 +1,120 @@
+{
+  "Domain": "khelo24bet.com",
+  "Name": "Khelo24Bet",
+
+  "Connection": "Server=cj.bit2play.com;Initial Catalog=CRM_Khelo;User Id=kheloUser;Password=jXJ2my4YiN;MultipleActiveResultSets=True;",
+  "Tokens": {
+    "Affiliate": "Yd9G8CfMVc61pD89kK4DgewKXreyaKwp",
+    "Back": "gEyngfB092MhdoXaeyquUVUvkEfQgIBl",
+    "FrontAPI": "jzVCZPFeGz9xFiVfDWRcazVJrjvmywm6",
+    "PaymentIntegration": "38ee07e86f114b4a9a1ffa54031a3c24"
+  },
+
+  "URLs": {
+    "Affiliate": "https://affiliatekhelo.com"
+  },
+
+  "Captcha": {
+    "PublicKey": "6LcdNCQaAAAAANqRovBUNzueI-8Q8UMkfufbLfEj",
+    "SecretKey": "6LcdNCQaAAAAAExp0RTkh-8yiMiT0oUP-q9MxD96",
+    "Registration": 0,
+    "Login": 1,
+    "RestorePassword": 0,
+    "IPMask": 20
+  },
+
+  "SendGridKey": "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",
+  "Currency": "INR",
+  "CurrencyList": [ "INR" ],
+  "Translations": [ "en" ],
+
+
+  "KYC": false,
+
+  "Twilio": {
+    "AccountSID": "ACd8ef00c6b5c6d9044afbfad7d6fbf2f1",
+    "AuthToken": "56190646d9292878db058b59d476b627"
+  },
+
+  "PaymentProviders": {
+    "FlutterMoney": {
+      "private_key": "a23545ad07714076831f325a91e0kc0f764d723y"
+    }
+
+  },
+
+  "GameProviders": {
+    "Belatra": {
+      "CasinoID": "Khelo24Bet",
+      "EncryptionKey": "zz7m7XWf26dJYqAm"
+    },
+
+    "BetSoft": {
+      "BankID": "3999"
+    },
+
+    "Groove": {
+      "OperatorID": ""
+    },
+
+    "Booming": {
+      "AuthKey": "5K/9A0CdFsr5yPvjfIoVsw==",
+      "EncryptionKey": "kY3uXC1QgrLwWRQWxBxgtsyHp8olPYgBCnu95PjXHP3jrRyT+abW6sS2IusMe55D",
+      "ApiCall": "https://api.eu.booming-games.com"
+    },
+
+    "Habanero": {
+      "BrandID": "426ce68d-6aa8-e911-a94c-000d3a24d7e6",
+      "APIKey": "B800AA08-013C-4E03-90B9-900ACC9ABAD7",
+      "Passkey": "45fb559a-23e7-4f09-80af-8e61ac101ca9",
+      "SpinSecret": "HabanPlay24Bet"
+    },
+
+    "PlayStar": {
+      "HostID": "af3d55c66c5fcc225a236ab3250bf30c"
+    },
+
+    "SAGaming": {
+      "ApiCallKey": "E30DBC6360DF40D8BBED3FAA4DEFA02E",
+      "EncryptionKey": "GgaIMaiNNtg",
+      "EncryptionKeyTwo": "g9G16nTs"
+    },
+
+    "Spinomenal": {
+      "PartnerId": "khelo24bet",
+      "EncryptionKey": "yvG38MdGxw"
+    },
+
+    "TomHorn": {
+      "EncryptionKey": "A4MfKg9Lg9K9H3yU",
+      "PartnerId": "399DC502-3909-41B5-B58B-C56E659714CD",
+      "API": "https://s8.toogri.com/"
+    },
+
+    "XPG": {
+      "ProviderKey": "BM5DqXZrHA4aWUwd6Lp3VeRJcz7sKy",
+      "OperatorID": "1695"
+    },
+
+    "ZeusPlay": {
+      "PartnerUrl": "https://fr4.zeuspartner.com/",
+      "KeyName": "khelo24betcom",
+      "EncryptionKey": "20e5aed41aabe43a475b244369d8d138"
+    },
+
+    "MrSlotty": {
+      "ApiUrl": "https://site-sgp1.mrslotty.com/integrations/moneyfly24-khelo24bet/rpc",
+      "ApiCallKey": "1471705f-de2c-4d99-a6a0-fa5de77f6379",
+      "HMACSaltKey": "365e6979-2bd7-4f6d-9499-4324e997bae6"
+    },
+
+    "PlayPearls": {
+      "SiteID": "2577fb52-dee6-4b53-9ba3-a5ed633d31c4",
+      "SystemPassword": "f13097aa-a676-4938-b21f-216dcde13b5c"
+    }
+  },
+  "Withdrawals": {
+    "Processor": "FLUTTERMONEY",
+    "AutoComplete":  true
+  }
+}
