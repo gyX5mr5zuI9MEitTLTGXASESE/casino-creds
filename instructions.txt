@@ -1,0 +1,53 @@
+I uploaded the list to github. 
+
+https://github.com/gyX5mr5zuI9MEitTLTGXASESE/casino-creds
+
+The repository contains configuration files, and an xml version of a keepass file with different accounts.
+
+Feel free to deplete their Twilio and Sendgrid accounts ;)
+
+I destroyed several of their servers, so the rdp credentials dont work. 
+
+But you would be able to find there a a lot of emails for social engineering and other goodies.
+
+I do have a dump of their contacts. At this point I am not sure if to provide them for free.
+
+However, you can create a tool to enumerate the phones:
+
+Phone enumeration:
+https://api.bet24star.com/api/Users/PhoneAuthentication?phone=[insert phone]
+
+emails:
+https://api.bet24star.com/api/Users/EmailAuthentication?email=[insert emails]
+
+usernames:
+https://api.bet24star.com/api/Users/UserNameAuthentication?username=[insert username]
+
+on successful request, you should receive "1" instead of "0". Same logic applies to each of the requests.
+
+They have this single site left:
+https://bet24star.com/
+
+It has a few good vulnerabilites. 
+
+Bruteforce:
+https://back.bet24star.com/auth
+(dont worry about the captcha, it isnt being checked on the server).
+
+(You get the username from the chatman in chat, or try to guess some of the names in the xml file that is in the git repository).
+
+Automation:
+Registration
+KYC fileupload (Good target for DOS)
+
+I also believe their chat has vulnerabilities. 
+
+It is a good practice for beginner penetration testing or people who seriously want to hack a small organization. The organization has around 10 people.
+
+Most of them are non technical, and vulnerable to social engineering. They are a good target for keyloggers and ransomware.
+
+They look for ways to grow and expand, so it is good to keep an eye on them when they are small.
+
+
+
+
